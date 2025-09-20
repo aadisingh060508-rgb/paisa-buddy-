@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced UI Website</title>
+  <link rel="stylesheet" href="tw.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">MyBrand</div>
+    <nav class="nav-links">
+      <a href="#hero">Home</a>
+      <a href="#features">Features</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="hamburger">☰</button>
+    <button class="dark-mode">🌙</button>
+  </header>
+
+  <!-- Hero -->
+  <section id="hero" class="hero">
+    <h1 class="hero-title">Modern UI with Pure CSS</h1>
+    <p>Responsive, Animated & Interactive</p>
+    <a href="#features" class="cta">Get Started</a>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="features">
+    <div class="feature-card">Feature 1</div>
+    <div class="feature-card">Feature 2</div>
+    <div class="feature-card">Feature 3</div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="gallery">
+    <button data-filter="all">All</button>
+    <button data-filter="web">Web</button>
+    <button data-filter="mobile">Mobile</button>
+    <div class="gallery-grid">
+      <img src="assets/img1.jpg" alt="Gallery Item">
+      <img src="assets/img2.jpg" alt="Gallery Item">
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials">
+    <div class="carousel">
+      <div class="slide active">"Amazing site!"</div>
+      <div class="slide">"Loved the animations!"</div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="faq">
+    <div class="faq-item">
+      <button class="faq-question">What is this?</button>
+      <div class="faq-answer">This is a modern responsive site.</div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 MyBrand</p>
+    <a href="#hero" class="back-to-top">↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
